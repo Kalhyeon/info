@@ -26,6 +26,6 @@ function printContacts(contacts) {
         <td>${c.tel}</td>
       </tr>
     `;
+    $tbody.append(html);
   };
-  $tbody.append(html);
 }
